@@ -108,9 +108,6 @@ function createCharacterCard(character, isPlayerCharacter = false) {
                     <button class="btn btn-sm btn-success me-1" onclick="event.stopPropagation(); showEquipment(${character.id})">
                         <i class="fas fa-sword"></i> Equipar
                     </button>
-                    <button class="btn btn-sm btn-info" onclick="event.stopPropagation(); addToTeam(${character.id})">
-                        <i class="fas fa-users"></i> Equipe
-                    </button>
                 </div>
             ` : ''}
         </div>
